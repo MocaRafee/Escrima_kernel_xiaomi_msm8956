@@ -72,6 +72,11 @@
 #define IPA_IOCTL_MAX 47
 
 /**
+ * name for default value of invalid protocol of NAT
+ */
+#define IPAHAL_NAT_INVALID_PROTOCOL   0xFF
+
+/**
  * max size of the header to be inserted
  */
 #define IPA_HDR_MAX_SIZE 64
